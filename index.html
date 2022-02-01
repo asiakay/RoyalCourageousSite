@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Storing User Input in Variable</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+<h1>Storing User Input in Variable</h1>  
+
+<p id="demo">Some text</p>
+Ticker: <input id="ticker" type="text" placeholder="Text">
+<br>
+Q1: <input id="quart1" type="text" placeholder="Text">
+<br>
+Q2: <input id="quart2" type="text" placeholder="Text">
+<br>
+Q3: <input id="quart3" type="text" placeholder="Text">
+<br>
+Q4: <input id="quart4" type="text" placeholder="Text">
+<br>
+Margin of Safety: <select name="safety">
+<option value=".9">10%</option>
+<option value=".85">15%</option>
+<option value=".8">20%</option>
+<option value=".75">25%</option>
+</select>
+<br>
+Rate of Return: 
+<select name="return">
+  <option value=".9">10%</option>
+  <option value=".8">20%</option>
+  <option value=".7">30%</option>
+</select>
+<br>
+Shares Outstanding: 
+<input id="shares" type="text" placeholder="enter shares outstanding">
+<br>
+<button onclick="returnSum()">Submit Button</button>
+
+<script src="script.js"></script>
+  </body>
+</html>
